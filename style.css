@@ -1,0 +1,24 @@
+*{
+    background-color: aquamarine;
+    text-align: center;
+}
+.school1, .school2, .school3, .school4{
+   
+    height: 100px;
+    width: 200px;
+    background-color: violet;
+}
+div{
+    margin: 10px;
+    padding: 10px;
+    height: 100px;
+    width: 200px;
+    background-color: violet;
+    display: inline-flex;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bnotes</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #School1, #School2, #School3, #School4 {
+            border: 1px solid black; /* Add a border to visualize the boxes */
+            padding: 10px; /* Add some padding */
+            margin-bottom: 10px; /* Add space between boxes */
+            cursor: pointer; /* Indicate clickable element */
+        }
+    </style>
+</head>
+<body>
+    <h1>BNotes</h1>
+
+    <div id="School1" onclick="navigateTo('school1.html')">Johnson grammar school</div>
+    <div id="School2" onclick="navigateTo('school2.html')">The Gaudium school</div>
+    <div id="School3" onclick="navigateTo('school3.html')">Sadhana Infinity school</div>
+    <div id="School4" onclick="navigateTo('school4.html')">School 4</div>
+
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+    </script>
+
+</body>
+</html>
